@@ -7,7 +7,7 @@ Aplikace nabízí:
 - možnost nastavit jídelnu jako oblíbenou (bude se automaticky zobrazovat po spuštění aplikace)
 - zkratka (odkaz) na přihlašovací stránku objednávkového systému
 
-Aplikace se instaluje z APK balíčku, který lze stáhnout [zde](/releases/latest).
+Aplikace se instaluje z APK balíčku, který lze stáhnout [zde](https://github.com/vitlabuda/icanteen-jidelnicek/releases/latest).
 
 ## Upozornění
 **Tato aplikce není nijak spojena se systémem iCanteen ani s jeho autorem, společností Z-WARE s.r.o. Jedná se pouze o neziskový komunitní open-source projekt.**
