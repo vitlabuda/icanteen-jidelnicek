@@ -1,0 +1,7 @@
+--- en-US ---
+This app does not collect or store any personal information.
+Upon user request, the app connects to an iCanteen server, whose URL is specified by the user when adding a new canteen, and fetches a food menu from there. No personal information is transferred to the server.
+
+--- cs-CZ ---
+Tato aplikace neshromažďuje ani neukládá žádné osobní údaje.
+Na žádost uživatele se aplikace připojuje k serveru iCanteen, jehož adresu URL určuje uživatel při přidávání nové jídelny, a odtud načítá jídelní lístek. Na server nejsou přenášeny žádné osobní údaje.

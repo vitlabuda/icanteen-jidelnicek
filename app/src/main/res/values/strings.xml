@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">iCanteen Jídelníček</string>
+    <string name="about_app">O aplikaci</string>
+
+
+    <!-- MainActivity -->
+    <string name="add_canteen">Přidat jídelnu</string>
+    <string name="set_as_favorite">Nastavit jako oblíbenou jídelnu</string>
+    <string name="canteen_was_set_as_favorite">Jídelníček %s se nyní bude zobrazovat automaticky po spuštění aplikace.</string>
+    <string name="no_canteens_added">Zatím nebyly přidány žádné jídelny.</string>
+
+    <string name="remove_canteen_dialog_title">Odstranit jídelnu?</string>
+    <string name="remove_canteen_dialog_message">Opravdu chcete odstranit jídelnu %s?</string>
+
+    <string name="add_canteen_dialog_title">Přidat jídelnu</string>
+    <string name="add_canteen_dialog_select">Vybrat jídelnu ze seznamu</string>
+    <string name="add_canteen_dialog_name">Název</string>
+    <string name="add_canteen_dialog_url">URL adresa</string>
+    <string name="add_canteen_dialog_add">Přidat</string>
+    <string name="add_canteen_dialog_cancel">Zrušit</string>
+    <string name="add_canteen_dialog_url_help">URL adresou jídelny se myslí URL přihlašovací stránky do systému iCanteen.\nPříklad: <b>https://strav.nasejidelna.cz/1234/login</b></string>
+
+    <string name="add_canteen_error_dialog_title">Chyba</string>
+    <string name="add_canteen_error_dialog_empty_name">Nezadali jste název jídelny!</string>
+    <string name="add_canteen_error_dialog_empty_url">Nezadali jste URL adresu jídelny!</string>
+    <string name="add_canteen_error_dialog_invalid_url">Zadaná URL adresa jídelny je neplatná!</string>
+    <string name="add_canteen_error_dialog_extractor_error">Nebylo možné získat jídelníček ze stránek jídelny!\nChybová zpráva: %s</string>
+
+    <string name="select_canteen_dialog_title">Vyberte jídelnu</string>
+
+    <string name="validating_canteen_progress_dialog_message">Ověřuji jídelnu…</string>
+
+
+    <!-- FoodMenuActivity -->
+    <string name="refresh_food_menu">Obnovit jídelníček</string>
+    <string name="order_food">Objednat obědy</string>
+
+    <string name="fetching_food_menu_progress_dialog_message">Získávám jídelníček…</string>
+    <string name="food_menu_fetch_error_dialog_title">Chyba</string>
+    <string name="food_menu_fetch_error_dialog_message">Při získávání jídelníčku nastala chyba!\nChybová zpráva: %s</string>
+
+
+    <!-- AboutActivity -->
+    <string name="app_license">Licence aplikace</string>
+    <string name="open_source_licenses">Licence open-source</string>
+    <string name="privacy_policy">Ochrana soukromí</string>
+
+    <string name="version">verze %s</string>
+
+    <string name="author">Autor: <b>Vít Labuda</b></string>
+    <string name="author_links" translatable="false">https://vitlabuda.cz | https://github.com/vitlabuda</string>
+    <string name="author_disclaimer">Tato aplikce není nijak spojena se systémem iCanteen ani s jeho autorem, společností Z-WARE s.r.o. Jedná se pouze o neziskový komunitní open-source projekt.</string>
+
+    <string name="license">Licence: <b>BSD-3-Clause</b></string>
+    <string name="source_code_links">Zdrojový kód: https://github.com/vitlabuda/icanteen-jidelnicek</string>
+
+</resources>

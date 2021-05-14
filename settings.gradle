@@ -1,0 +1,2 @@
+rootProject.name = "iCanteen Jídelníček"
+include ':app'

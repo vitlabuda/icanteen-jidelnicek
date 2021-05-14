@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about_menu_app_license"
+        android:title="@string/app_license" />
+    <item
+        android:id="@+id/about_menu_open_source_licenses"
+        android:title="@string/open_source_licenses" />
+    <item
+        android:id="@+id/about_menu_privacy_policy"
+        android:title="@string/privacy_policy" />
+</menu>
