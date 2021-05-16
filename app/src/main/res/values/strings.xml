@@ -1,57 +1,57 @@
 <resources>
-    <string name="app_name">iCanteen Jídelníček</string>
-    <string name="about_app">O aplikaci</string>
+    <string name="app_name">iCanteen Food Menu</string>
+    <string name="about_app">About this app</string>
 
 
     <!-- MainActivity -->
-    <string name="add_canteen">Přidat jídelnu</string>
-    <string name="set_as_favorite">Nastavit jako oblíbenou jídelnu</string>
-    <string name="canteen_was_set_as_favorite">Jídelníček %s se nyní bude zobrazovat automaticky po spuštění aplikace.</string>
-    <string name="no_canteens_added">Zatím nebyly přidány žádné jídelny.</string>
+    <string name="add_canteen">Add canteen</string>
+    <string name="set_as_favorite">Set canteen as favorite</string>
+    <string name="canteen_was_set_as_favorite">Canteen named %s will be shown automatically after starting the app.</string>
+    <string name="no_canteens_added">No canteens have been added so far.</string>
 
-    <string name="remove_canteen_dialog_title">Odstranit jídelnu?</string>
-    <string name="remove_canteen_dialog_message">Opravdu chcete odstranit jídelnu %s?</string>
+    <string name="remove_canteen_dialog_title">Delete canteen?</string>
+    <string name="remove_canteen_dialog_message">Are you sure you want to remove the canteen named %s?</string>
 
-    <string name="add_canteen_dialog_title">Přidat jídelnu</string>
-    <string name="add_canteen_dialog_select">Vybrat jídelnu ze seznamu</string>
-    <string name="add_canteen_dialog_name">Název</string>
-    <string name="add_canteen_dialog_url">URL adresa</string>
-    <string name="add_canteen_dialog_add">Přidat</string>
-    <string name="add_canteen_dialog_cancel">Zrušit</string>
-    <string name="add_canteen_dialog_url_help">URL adresou jídelny se myslí URL přihlašovací stránky do systému iCanteen.\nPříklad: <b>https://strav.nasejidelna.cz/1234/login</b></string>
+    <string name="add_canteen_dialog_title">Add canteen</string>
+    <string name="add_canteen_dialog_select">Choose a canteen from the list</string>
+    <string name="add_canteen_dialog_name">Name</string>
+    <string name="add_canteen_dialog_url">URL address</string>
+    <string name="add_canteen_dialog_add">Add</string>
+    <string name="add_canteen_dialog_cancel">Cancel</string>
+    <string name="add_canteen_dialog_url_help">The URL address field must contain the URL of an iCanteen login page.\nExample: <b>https://strav.nasejidelna.cz/1234/login</b></string>
 
-    <string name="add_canteen_error_dialog_title">Chyba</string>
-    <string name="add_canteen_error_dialog_empty_name">Nezadali jste název jídelny!</string>
-    <string name="add_canteen_error_dialog_empty_url">Nezadali jste URL adresu jídelny!</string>
-    <string name="add_canteen_error_dialog_invalid_url">Zadaná URL adresa jídelny je neplatná!</string>
-    <string name="add_canteen_error_dialog_extractor_error">Nebylo možné získat jídelníček ze stránek jídelny!\nChybová zpráva: %s</string>
+    <string name="add_canteen_error_dialog_title">Error</string>
+    <string name="add_canteen_error_dialog_empty_name">The name field is empty!</string>
+    <string name="add_canteen_error_dialog_empty_url">The URL address field is empty!</string>
+    <string name="add_canteen_error_dialog_invalid_url">The specified URL address is invalid!</string>
+    <string name="add_canteen_error_dialog_extractor_error">An error occurred while fetching the food menu from the canteen\'s website!\nError message: %s</string>
 
-    <string name="select_canteen_dialog_title">Vyberte jídelnu</string>
+    <string name="select_canteen_dialog_title">Choose a canteen</string>
 
-    <string name="validating_canteen_progress_dialog_message">Ověřuji jídelnu…</string>
+    <string name="validating_canteen_progress_dialog_message">Validating the canteen…</string>
 
 
     <!-- FoodMenuActivity -->
-    <string name="refresh_food_menu">Obnovit jídelníček</string>
-    <string name="order_food">Objednat obědy</string>
+    <string name="refresh_food_menu">Refresh</string>
+    <string name="order_dishes">Order dishes</string>
 
-    <string name="fetching_food_menu_progress_dialog_message">Získávám jídelníček…</string>
-    <string name="food_menu_fetch_error_dialog_title">Chyba</string>
-    <string name="food_menu_fetch_error_dialog_message">Při získávání jídelníčku nastala chyba!\nChybová zpráva: %s</string>
+    <string name="fetching_food_menu_progress_dialog_message">Fetching the food menu…</string>
+    <string name="food_menu_fetch_error_dialog_title">Error</string>
+    <string name="food_menu_fetch_error_dialog_message">An error occurred while fetching the food menu from the canteen\'s website!\nError message: %s</string>
 
 
     <!-- AboutActivity -->
-    <string name="app_license">Licence aplikace</string>
-    <string name="open_source_licenses">Licence open-source</string>
-    <string name="privacy_policy">Ochrana soukromí</string>
+    <string name="app_license">App license</string>
+    <string name="open_source_licenses">Open-source licenses</string>
+    <string name="privacy_policy">Privacy policy</string>
 
-    <string name="version">verze %s</string>
+    <string name="version">version %s</string>
 
-    <string name="author">Autor: <b>Vít Labuda</b></string>
+    <string name="author">Author: <b>Vít Labuda</b></string>
     <string name="author_links" translatable="false">https://vitlabuda.cz | https://github.com/vitlabuda</string>
-    <string name="author_disclaimer">Tato aplikce není nijak spojena se systémem iCanteen ani s jeho autorem, společností Z-WARE s.r.o. Jedná se pouze o neziskový komunitní open-source projekt.</string>
+    <string name="author_disclaimer">This app is not affiliated with iCanteen or its author, Z-WARE s.r.o. It\'s just a non-profit open-source community project.</string>
 
-    <string name="license">Licence: <b>BSD-3-Clause</b></string>
-    <string name="source_code_links">Zdrojový kód: https://github.com/vitlabuda/icanteen-jidelnicek</string>
+    <string name="license">License: <b>BSD-3-Clause</b></string>
+    <string name="source_code_links">Source code: https://github.com/vitlabuda/icanteen-jidelnicek</string>
 
 </resources>

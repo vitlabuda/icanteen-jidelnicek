@@ -11,7 +11,8 @@
         android:id="@+id/canteen_list_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:listitem="@layout/recycleritem_canteen_list" />
 
     <LinearLayout
         android:id="@+id/no_canteens_added_linear_layout"

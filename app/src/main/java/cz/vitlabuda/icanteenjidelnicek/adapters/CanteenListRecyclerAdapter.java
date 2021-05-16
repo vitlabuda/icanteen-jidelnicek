@@ -19,6 +19,14 @@ import cz.vitlabuda.icanteenjidelnicek.FavoriteCanteenManager;
 import cz.vitlabuda.icanteenjidelnicek.MainActivity;
 import cz.vitlabuda.icanteenjidelnicek.R;
 
+/*
+ I acknowledge that this whole logic could be done better using Android architecture components
+ (Room, LiveData, ViewModel etc.), but I programmed this app when I had no clue about those things
+ and since this app is already in production use for some time and it works perfectly fine,
+ I decided to keep it as it is.
+
+ Also, a ListAdapter would fit here better instead of RecyclerView.Adapter.
+*/
 public final class CanteenListRecyclerAdapter extends RecyclerView.Adapter<CanteenListRecyclerAdapter.CanteenListRecyclerViewHolder> {
     public interface CanteenRecyclerActionListener {
         void onClick(CanteenListRecyclerAdapter adapter, CanteenList.Canteen canteen, int position);

@@ -13,6 +13,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
+/*
+ I acknowledge that this whole logic could be done better using Android architecture components
+ (Room, LiveData, ViewModel etc.), but I programmed this app when I had no clue about those things
+ and since this app is already in production use for some time and it works perfectly fine,
+ I decided to keep it as it is.
+*/
 public final class CanteenList {
     public static final class CanteenNotFoundException extends AppRuntimeException {
         public CanteenNotFoundException(String message) {
